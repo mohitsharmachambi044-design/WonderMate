@@ -3,9 +3,82 @@
 <head>
   <title>WonderMate</title>
   <style>
-    .button{
-      padding: 10px;
-      background: green;
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #a8edea, #fed6e3);
+      color: #333;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #0077b6;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    .button {
+      padding: 12px 25px;
+      background: linear-gradient(45deg, #06d6a0, #1b9aaa);
+      border: none;
+      color: white;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .button:hover {
+      background: linear-gradient(45deg, #1b9aaa, #06d6a0);
+      transform: scale(1.05);
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #073b4c;
+      font-size: 2rem;
+      border-bottom: 2px solid #06d6a0;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 20px;
+      text-align: left;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    li {
+      background: #ffffffa9;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      font-size: 1.1rem;
+      transition: 0.3s;
+    }
+
+    li:hover {
+      background: #fff;
+      transform: translateY(-3px);
     }
   </style>
 </head>
@@ -20,11 +93,12 @@
   <p>WonderMate is a platform for travellers to find the perfect travel buddy. Enter your budget, destination, and travel dates, and discover fellow travellers who share your plans and interests.</p>
 
   <!-- Features Section -->
-<h2>Why Choose WonderMate?</h2>
-<ul>
-  <li>Find travel buddies who match your budget</li>
-  <li>Discover new destinations with like-minded travellers</li>
-  <li>Safe, easy and free to use</li>
-</ul>
+  <h2>Why Choose WonderMate?</h2>
+  <ul>
+    <li>Find travel buddies who match your budget</li>
+    <li>Discover new destinations with like-minded travellers</li>
+    <li>Safe, easy and free to use</li>
+  </ul>
+
 </body>
 </html>
