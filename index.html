@@ -80,6 +80,45 @@
       background: #fff;
       transform: translateY(-3px);
     }
+
+    /* Testimonials */
+    .testimonial {
+      background: #fff;
+      padding: 20px;
+      margin: 15px auto;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      font-style: italic;
+    }
+
+    .testimonial span {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #0077b6;
+    }
+
+    /* Contact form */
+    form {
+      max-width: 500px;
+      margin: 20px auto;
+      text-align: left;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    form button {
+      width: 100%;
+    }
+
   </style>
 </head>
 <body>
@@ -99,6 +138,26 @@
     <li>Discover new destinations with like-minded travellers</li>
     <li>Safe, easy and free to use</li>
   </ul>
+
+  <!-- Testimonials -->
+  <h2>What Travellers Say</h2>
+  <div class="testimonial">
+    "I found the perfect partner for my trip to Manali. Thanks WonderMate!"
+    <span>- Rahul Sharma</span>
+  </div>
+  <div class="testimonial">
+    "Safe and easy to use. Made my Goa trip memorable with new friends."
+    <span>- Priya Verma</span>
+  </div>
+
+  <!-- Contact Form -->
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button class="button" type="submit">Send Message</button>
+  </form>
 
 </body>
 </html>
